@@ -9,13 +9,13 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
-classes = ['black', 'grizzly', 'teddys']
+# export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+# export_file_name = 'export.pkl'
+# classes = ['black', 'grizzly', 'teddys']
 
-# export_file_url = 'https://drive.google.com/uc?export=download&id=1QAVK-k2pRpjwkbH6wAWAJH7BG3ev44kI'
-# export_file_name = 'monos-costarica.pkl'
-# classes = ['araña', 'ardilla', 'aullador', 'capuchino']
+export_file_url = 'https://www.dropbox.com/s/jyieo3ut6hyhsg5/monos-costarica2.pkl?dl=1'
+export_file_name = 'monos-costarica2.pkl'
+classes = ['araña', 'ardilla', 'aullador', 'capuchino']
 
 path = Path(__file__).parent
 
